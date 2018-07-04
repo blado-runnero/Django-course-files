@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Forms and Labels</title>
+  </head>
+  <body>
+    <form action="https://www.facebook.com" method="post">
+      <p>Enter text and take me to FB :- </p>
+      <label>
+        <!-- labels without for -->
+        Enter Email :-
+        <input type="text" name="userInput" value="" placeholder="Enter Email Here" required>
+      </label>
+      <br><br>
+      <label for="userPassword">
+        <!-- labels with for -->
+        Enter Password :-
+      </label>
+      <input id="userPassword" type="password" name="" value="" required>
+      <input type="submit" name="" value="Submit">
+    </form>
+  </body>
+</html>

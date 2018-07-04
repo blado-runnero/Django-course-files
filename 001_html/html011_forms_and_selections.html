@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Forms and Selection</title>
+  </head>
+  <body>
+    <h1>Hotel Feedback Form</h1>
+
+    <form method="get">
+      <h3>Are you from inside India or outside of india?</h3>
+
+      <label for="inindia">Inside</label>
+      <input  id="inindia" type="radio" name="insideoutside" value="Inside of India">
+
+      <label for="outofindia">Outside</label>
+      <input id="outofindia" type="radio" name="insideoutside" value="Outside of India">
+
+      <h2>How was our services ?</h2>
+      <select name="stars">
+        <option value="Great">3</option>
+        <option value="Okay">2</option>
+        <option value="Bad">1</option>
+      </select>
+
+      <p>Any other feedback?</p>
+      <textarea name="mytext" rows="8" cols="80" placeholder="suggestions here"></textarea>
+
+      <input type="submit" name="" value="SUBMIT">
+
+    </form>
+
+
+  </body>
+</html>
