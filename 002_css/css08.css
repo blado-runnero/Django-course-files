@@ -1,0 +1,64 @@
+/*
+1.  #D6C55D
+2.  #85B85A
+3.  #4F9E6E
+4.  #299699
+5.  #2D7DAE
+6.  #4D74AF
+7.  #6C6287
+8.  #83557A
+9.  #A55C6E
+10.  #B35649
+11.  #B7602B
+12.  #BE7226
+13.  #AF8D2B
+*/
+
+body{
+  align-items: center;
+  font-family: 'Wendy One', sans-serif;
+}
+svg{
+  margin-right: 30px;
+}
+#one{
+  color : #D6C55D;
+}
+td{
+  width: 200px;
+  height: 400px;
+  border: 2px solid;
+  margin-right: 50px;
+}
+#onee{
+  background-color: #D6C55D;
+  border-color: #D6C55D;
+}
+
+#twoo{
+  background-color: #85B85A;
+  border-color: #85B85A;
+}
+#threee{
+  background-color: #4F9E6E;
+  border-color: #4F9E6E;
+}
+#fourr{
+  background-color: #299699;
+  border-color: #299699;
+}
+#fivee{
+  background-color: #2D7DAE;
+  border-color: #2D7DAE;
+}
+#sixx{
+  background-color: #4D74AF;
+  border-color: #4D74AF;
+}
+#sevenn{
+  background-color: #6C6287;
+  border-color: #6C6287;
+}
+.art{
+  margin: auto;
+}

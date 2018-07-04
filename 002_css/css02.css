@@ -1,0 +1,17 @@
+body{
+  background: url(http://tympanus.net/codrops-playground/assets/images/cssref/properties/background-image/pattern.png);
+  background-repeat: repeat;
+}
+
+div{
+  background: green;
+  /*border below*/
+  border-width: thin;
+  border-color: black;
+  border-style: dotted;
+}
+
+span{
+  background: blue;
+  color: gray;
+}

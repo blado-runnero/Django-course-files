@@ -1,0 +1,24 @@
+h1{
+  font-family: Arial;
+}
+
+p{
+  font-family: font-family: 'PT Sans', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+}
+
+body{
+  font-size: 1.2em;
+}
+
+#two{
+  font-size: 1.5em;
+}
+
+
+/*
+1em = 16 pixels
+2em = 32 pixels
+*/

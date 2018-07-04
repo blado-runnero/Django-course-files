@@ -1,0 +1,17 @@
+.firstDiv{
+  color: blue;
+}
+
+.secondDiv{
+  color: red;
+}
+
+#singledout{
+  color: green;
+  text-decoration: line-through;
+}
+
+body{
+  background: url(https://i.stack.imgur.com/1voHP.png);
+
+}
