@@ -18,3 +18,14 @@ margin: auto;
 .none{
   text-align: center;
 }
+#resultScoreBoard{
+  font-family: 'Bangers', cursive;
+  font-size: 30px;
+  text-align: center;
+}
+#drawDisplay{
+  font-family: 'Bangers', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: red;
+}
