@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Users List</title>
+  </head>
+  <body>
+    <h1>Hi! Below is the users data: </h1>
+
+    {% if users_data %}
+    <ol>
+    {% for user in users_data %}
+
+    <li>
+      User Info:
+      <ul>
+        <li>First Name :- {{ user.f_name }}</li>
+        <li>Last Name :- {{ user.l_name }}</li>
+        <li>Email :- {{ user.email }}</li>
+      </ul>
+    </li>
+
+    {% endfor %}
+    </ol>
+    
+
+    {% else %}
+    <p>OOPS.......... NO USER RECORDS FOUND!!</p>
+    {% endif %}
+
+  </body>
+</html>
